@@ -6,7 +6,7 @@ box-sizing: border-box;
 body {
  width: 100%;
  height: 100vh;
- background-image: url('../Calculator/Images/bg.png');
+ background-image: url('../Calculator/Images/background.png');
  background-repeat: no-repeat;
  background-size: cover;
 }
