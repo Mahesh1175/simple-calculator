@@ -27,8 +27,8 @@ body {
  }
 #calculator{
   margin-left: 29px;
-  position: absolute;
-  top: 42%;
+  /* position: absolute; */
+  margin-top: 56px;
 }
 #output{
  width: 245px;
