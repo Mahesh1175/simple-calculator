@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+           <div class="logo">
+              <img src="Images/logo.png">
+           </div>
+    <div id="calculator">
+             <input id="output" name="output">
+        <table>
+          <tr>
+            <td><input class="button" type="button" value="C" onclick=" clean()"></td>
+            <td><input class="button" type="button" value="&#x232B;" onclick="backspace()"></td>
+            <td><input class="button" type="button" value="&divide;" onclick="input('/')"></td>
+            <td><input class="button" type="button" value="&times;" onclick="input('*')"></td>
+          </tr> 
+          <tr>
+            <td><input class="button" type="button" value="7" onclick="input(7)"></td>
+            <td><input class="button" type="button" value="8" onclick="input(8)"></td>
+            <td><input class="button" type="button" value="9" onclick="input(9)"></td>
+            <td><input class="button" type="button" value="-" onclick="input('-')"></td>
+          </tr> 
+          <tr>
+            <td><input class="button" type="button" value="4" onclick="input(4)"></td>
+            <td><input class="button" type="button" value="5" onclick="input(5)"></td>
+            <td><input class="button" type="button" value="6" onclick="input(6)"></td>
+            <td><input class="button" type="button" value="+" onclick="input('+')"></td>
+          </tr> 
+          <tr>
+            <td><input class="button" type="button" value="1" onclick="input(1)"></td>
+            <td><input class="button" type="button" value="2" onclick="input(2)"></td>
+            <td><input class="button" type="button" value="3" onclick="input(3)"></td>
+            <td><input class="button" type="button" value="=" onclick="equal()"></td>
+          </tr> 
+          <tr>
+            <td><input class="button" type="button" value="." onclick="input('.')"></td>
+            <td><input class="button" type="button" value="0" onclick="input(0)"></td>
+          </tr> 
+        </table>
+    </div>
+  </div>
+    <script src="calculator.js"></script>   
+</body>
+</html>
